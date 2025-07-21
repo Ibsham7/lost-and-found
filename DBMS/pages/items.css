@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f3c6e;
+    margin: 0;
+    color: black;
+  }
+  
+  .top-bar {
+    background-color: #d3d3d3;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    height: 70px;
+  }
+  
+  .header-center {
+    text-align: center;
+  }
+  
+  .header-center h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+  
+  .header-center nav a {
+    color: black;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .upload-form {
+    padding: 20px;
+    background-color: #f5e1d8;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .upload-form input {
+    padding: 8px;
+  }
+  
+  .upload-form button {
+    padding: 10px;
+    background-color: #8b2e19;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .items-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+    margin-top: 60px;
+  }
+  
+  .item-card {
+    background-color: #f5e1d8;
+    border: 2px solid #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .item-info {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .claim-btn {
+    background-color: #8b2e19;
+    color: white;
+    padding: 10px;
+    margin-top: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: #12305c;
+    text-align: center;
+    padding: 15px 10px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+  }
+  
+  .footer img {
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .footer p {
+    font-size: 13px;
+    color: #fff;
+  }
+  

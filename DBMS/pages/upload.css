@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #17325c;
+    color: black;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    height: 80px;
+    border-radius: 0 0 6px 6px;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .nav-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  /* Main */
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px 40px;
+  }
+  .upload-box {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Form */
+  .form-box {
+    background-color: #bd7733;
+    padding: 30px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: white;
+  }
+  .form-box label {
+    font-weight: bold;
+  }
+  .form-box input,
+  .form-box textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    color: black;
+  }
+  .form-box button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #1a3e63;
+    border-top: 1px solid white;
+  }
+  .footer img {
+    width: 70px;
+    height: auto;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #17325c;
+    color: black;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    height: 80px;
+    border-radius: 0 0 6px 6px;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .nav-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  /* Main */
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px 40px;
+  }
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .upload-box {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px dashed #999;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  
+  .upload-box img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+    object-fit: contain;
+    border: none;
+  }
+  
+  #upload-btn {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    
+  }
+  
+  
+  /* Form */
+  .form-box {
+    background-color: #bd7733;
+    padding: 30px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: white;
+  }
+  .form-box label {
+    font-weight: bold;
+  }
+  .form-box input,
+  .form-box textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    color: black;
+  }
+  .form-box button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 105px;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #1a3e63;
+    border-top: 1px solid white;
+  }
+  .footer img {
+    width: 70px;
+    height: auto;
+  }
+    
